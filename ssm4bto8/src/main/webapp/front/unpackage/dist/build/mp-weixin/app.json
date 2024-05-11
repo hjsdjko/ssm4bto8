@@ -1,0 +1,90 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/xuexiao/list",
+    "pages/xuexiao/add-or-update",
+    "pages/xuexiao/detail",
+    "pages/xueyuan/list",
+    "pages/xueyuan/add-or-update",
+    "pages/xueyuan/detail",
+    "pages/nianji/list",
+    "pages/nianji/add-or-update",
+    "pages/nianji/detail",
+    "pages/banji/list",
+    "pages/banji/add-or-update",
+    "pages/banji/detail",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/tongzhigonggao/list",
+    "pages/tongzhigonggao/add-or-update",
+    "pages/tongzhigonggao/detail",
+    "pages/xueshengziliao/list",
+    "pages/xueshengziliao/add-or-update",
+    "pages/xueshengziliao/detail",
+    "pages/daibanshixiang/list",
+    "pages/daibanshixiang/add-or-update",
+    "pages/daibanshixiang/detail",
+    "pages/jiaowuchutongzhi/list",
+    "pages/jiaowuchutongzhi/add-or-update",
+    "pages/jiaowuchutongzhi/detail",
+    "pages/jiangzuotongzhi/list",
+    "pages/jiangzuotongzhi/add-or-update",
+    "pages/jiangzuotongzhi/detail",
+    "pages/qitatongzhi/list",
+    "pages/qitatongzhi/add-or-update",
+    "pages/qitatongzhi/detail",
+    "pages/xueshengjihe/list",
+    "pages/xueshengjihe/add-or-update",
+    "pages/xueshengjihe/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/exampaperlist/list",
+    "pages/exampaperlist/exam",
+    "pages/examrecord/list",
+    "pages/examrecord/detail",
+    "pages/examfailrecord/list",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "高校学生事务管理系统",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#40AE36",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}

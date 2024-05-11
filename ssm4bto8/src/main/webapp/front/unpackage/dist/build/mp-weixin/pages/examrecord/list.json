@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#75C460",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "考试记录",
+  "usingComponents": {
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni"
+  }
+}
